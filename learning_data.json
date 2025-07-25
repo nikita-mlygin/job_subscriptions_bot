@@ -1,0 +1,36 @@
+{
+  "tips": {
+    "beginner": [
+      "используй f-строки для форматирования: f\"Привет, {name}\"",
+      "не забывай про list comprehension: [x*x for x in range(5)]",
+      "изучай функцию enumerate() для итерации с индексом"
+    ],
+    "intermediate": [
+      "используй генераторы вместо списков, если не нужен весь список в памяти",
+      "изучай модули из стандартной библиотеки: functools, itertools, pathlib",
+      "сортируй списки с помощью sorted(list, key=lambda x: x.property)"
+    ],
+    "advanced": [
+      "рассмотри использование декораторов и метаклассов",
+      "изучай асинхронность: async/await, aiohttp, asyncio.Queue",
+      "применяй type hints и проверяй код mypy или pyright"
+    ]
+  },
+  "resources": {
+    "beginner": [
+      "Книга: 'Python для начинающих' — https://pythonworld.ru/books.html",
+      "Курс: Stepik — https://stepik.org/course/67",
+      "Практика: https://pythontutor.com/"
+    ],
+    "intermediate": [
+      "Курс: Real Python — https://realpython.com",
+      "Видео: Corey Schafer — YouTube",
+      "Проекты: https://projectbasedlearning.net"
+    ],
+    "advanced": [
+      "Книга: Fluent Python (Luciano Ramalho)",
+      "Документация: https://docs.python.org/3/",
+      "Курс: AsyncIO Deep Dive — https://www.aeracode.org/2018/02/19/python-async-simplified/"
+    ]
+  }
+}
