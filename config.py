@@ -1,4 +1,4 @@
-BOT_TOKEN = "8320581160:AAFBJPrAsI4-1XtE9P9-x-DBf30kkBtHg9Y"
+BOT_TOKEN = "yourtoken"
 
 MONGO_URI = "mongodb://localhost:27017"
 MONGO_DB_NAME = "job_subscribe_bot"
